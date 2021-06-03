@@ -1,0 +1,12 @@
+{
+    "manifest_version": 1,
+    "version": "0.0.1",
+    "name": "Big Blue",
+    "description": "Big Blue moaning extension",
+    "author": "Leonardo Zanotti",
+    "browser_action": {
+   	 "default_title": "Big Blue",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    }
+}
