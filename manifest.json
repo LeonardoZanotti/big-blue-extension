@@ -1,5 +1,5 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 2,
     "version": "0.0.1",
     "name": "Big Blue",
     "description": "Big Blue moaning extension",
@@ -8,5 +8,15 @@
    	 "default_title": "Big Blue",
    	 "default_popup": "index.html",
    	 "default_icon": "icon.png"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
 }
